@@ -1129,8 +1129,9 @@ GameObject:
   - component: {fileID: 482401279}
   - component: {fileID: 482401278}
   - component: {fileID: 482401277}
+  - component: {fileID: 482401280}
   m_Layer: 0
-  m_Name: Uprade Stone Button
+  m_Name: Produce Stone Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1200,7 +1201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 482401278}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482401280}
+        m_TargetAssemblyTypeName: ProductionBuilding, Assembly-CSharp
+        m_MethodName: ProduceResource
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &482401278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1239,6 +1252,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482401275}
   m_CullTransparentMesh: 1
+--- !u!114 &482401280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482401275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56fb0b4fba3fb04a9025cf53a464871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameResource: 3
 --- !u!1 &493989788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,8 +1424,9 @@ GameObject:
   - component: {fileID: 558009383}
   - component: {fileID: 558009382}
   - component: {fileID: 558009381}
+  - component: {fileID: 558009384}
   m_Layer: 0
-  m_Name: Uprade Humans Button
+  m_Name: Produce Humans Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1469,7 +1496,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 558009382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 558009384}
+        m_TargetAssemblyTypeName: ProductionBuilding, Assembly-CSharp
+        m_MethodName: ProduceResource
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &558009382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1508,6 +1547,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558009379}
   m_CullTransparentMesh: 1
+--- !u!114 &558009384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558009379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56fb0b4fba3fb04a9025cf53a464871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameResource: 0
 --- !u!1 &578128996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,7 +3562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361560858}
   m_Layer: 0
-  m_Name: Upgrade Buttons
+  m_Name: Produce Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4866,8 +4918,9 @@ GameObject:
   - component: {fileID: 1897827297}
   - component: {fileID: 1897827296}
   - component: {fileID: 1897827295}
+  - component: {fileID: 1897827298}
   m_Layer: 0
-  m_Name: Uprade Wood Button
+  m_Name: Produce Wood Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4937,7 +4990,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1897827296}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1897827298}
+        m_TargetAssemblyTypeName: ProductionBuilding, Assembly-CSharp
+        m_MethodName: ProduceResource
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1897827296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4976,6 +5041,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897827293}
   m_CullTransparentMesh: 1
+--- !u!114 &1897827298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897827293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56fb0b4fba3fb04a9025cf53a464871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameResource: 2
 --- !u!1 &1926629672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,8 +5066,9 @@ GameObject:
   - component: {fileID: 1926629676}
   - component: {fileID: 1926629675}
   - component: {fileID: 1926629674}
+  - component: {fileID: 1926629677}
   m_Layer: 0
-  m_Name: Uprade Food Button
+  m_Name: Produce Food Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5059,7 +5138,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1926629675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1926629677}
+        m_TargetAssemblyTypeName: ProductionBuilding, Assembly-CSharp
+        m_MethodName: ProduceResource
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1926629675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5098,6 +5189,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926629672}
   m_CullTransparentMesh: 1
+--- !u!114 &1926629677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926629672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56fb0b4fba3fb04a9025cf53a464871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameResource: 1
 --- !u!1 &2031539033
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,8 +5214,9 @@ GameObject:
   - component: {fileID: 2031539037}
   - component: {fileID: 2031539036}
   - component: {fileID: 2031539035}
+  - component: {fileID: 2031539038}
   m_Layer: 0
-  m_Name: Uprade Gold Button
+  m_Name: Produce Gold Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5181,7 +5286,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2031539036}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2031539038}
+        m_TargetAssemblyTypeName: ProductionBuilding, Assembly-CSharp
+        m_MethodName: ProduceResource
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2031539036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5220,6 +5337,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031539033}
   m_CullTransparentMesh: 1
+--- !u!114 &2031539038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031539033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56fb0b4fba3fb04a9025cf53a464871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameResource: 4
 --- !u!1 &2118663005
 GameObject:
   m_ObjectHideFlags: 0

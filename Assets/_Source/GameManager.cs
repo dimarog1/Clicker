@@ -7,11 +7,11 @@ public class GameManager : MonoBehaviour
 {
     private void Awake()
     {
-        ResourceBank.AddResource(GameResource.Humans, 10);
-        ResourceBank.AddResource(GameResource.Food, 5);
-        ResourceBank.AddResource(GameResource.Wood, 5);
-        ResourceBank.AddResource(GameResource.Stone, 0);
-        ResourceBank.AddResource(GameResource.Gold, 0);
+        ResourceBank.InitResource(GameResource.Humans, 10);
+        ResourceBank.InitResource(GameResource.Food, 5);
+        ResourceBank.InitResource(GameResource.Wood, 5);
+        ResourceBank.InitResource(GameResource.Stone, 0);
+        ResourceBank.InitResource(GameResource.Gold, 0);
     }
     
 }
