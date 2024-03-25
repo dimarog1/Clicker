@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 81807085}
   - component: {fileID: 81807087}
   - component: {fileID: 81807086}
+  - component: {fileID: 81807088}
   m_Layer: 0
   m_Name: Humans Amount Text
   m_TagString: Untagged
@@ -258,6 +259,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81807084}
   m_CullTransparentMesh: 1
+--- !u!114 &81807088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81807084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0ac3945b52ec49b9414d403537892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGameResource: 0
 --- !u!1 &113513528
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +760,7 @@ GameObject:
   - component: {fileID: 387318995}
   - component: {fileID: 387318997}
   - component: {fileID: 387318996}
+  - component: {fileID: 387318998}
   m_Layer: 0
   m_Name: Food Amount Text
   m_TagString: Untagged
@@ -870,6 +885,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387318994}
   m_CullTransparentMesh: 1
+--- !u!114 &387318998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387318994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0ac3945b52ec49b9414d403537892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGameResource: 1
 --- !u!1 &401008114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,7 +1277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.003112793, y: 146.33}
+  m_AnchoredPosition: {x: -0.0031738281, y: 146.33002}
   m_SizeDelta: {x: 0.76, y: 125.68}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &519420028
@@ -1263,6 +1291,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1345,6 +1374,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9467dba6e51d284e8c120c22a5b92b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &558009379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1519,7 @@ GameObject:
   - component: {fileID: 578128997}
   - component: {fileID: 578128999}
   - component: {fileID: 578128998}
+  - component: {fileID: 578129000}
   m_Layer: 0
   m_Name: Wood Amount Text
   m_TagString: Untagged
@@ -1602,6 +1644,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578128996}
   m_CullTransparentMesh: 1
+--- !u!114 &578129000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578128996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0ac3945b52ec49b9414d403537892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGameResource: 2
 --- !u!1 &579470935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,7 +1695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0031128, y: -50.36}
+  m_AnchoredPosition: {x: 0.0031128, y: -50.359985}
   m_SizeDelta: {x: 828.76, y: 84.44}
   m_Pivot: {x: 0.5, y: 1.0000001}
 --- !u!1 &595074663
@@ -3270,6 +3325,7 @@ GameObject:
   - component: {fileID: 1250194626}
   - component: {fileID: 1250194628}
   - component: {fileID: 1250194627}
+  - component: {fileID: 1250194629}
   m_Layer: 0
   m_Name: Stone Amount Text
   m_TagString: Untagged
@@ -3394,6 +3450,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250194625}
   m_CullTransparentMesh: 1
+--- !u!114 &1250194629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250194625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0ac3945b52ec49b9414d403537892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGameResource: 3
 --- !u!1 &1259179802
 GameObject:
   m_ObjectHideFlags: 0
@@ -3469,7 +3538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -0.003112793, y: -3.4650116}
+  m_AnchoredPosition: {x: -0.0031738281, y: -3.4650116}
   m_SizeDelta: {x: 0.76, y: 103.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1422484982
@@ -3794,6 +3863,7 @@ GameObject:
   - component: {fileID: 1619946874}
   - component: {fileID: 1619946876}
   - component: {fileID: 1619946875}
+  - component: {fileID: 1619946877}
   m_Layer: 0
   m_Name: Gold Amount Text
   m_TagString: Untagged
@@ -3918,6 +3988,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619946873}
   m_CullTransparentMesh: 1
+--- !u!114 &1619946877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619946873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bd0ac3945b52ec49b9414d403537892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myGameResource: 4
 --- !u!1 &1683632062
 GameObject:
   m_ObjectHideFlags: 0
