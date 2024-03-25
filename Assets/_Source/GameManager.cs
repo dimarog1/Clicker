@@ -12,6 +12,11 @@ public class GameManager : MonoBehaviour
         ResourceBank.InitResource(GameResource.Wood, 5);
         ResourceBank.InitResource(GameResource.Stone, 0);
         ResourceBank.InitResource(GameResource.Gold, 0);
+
+        foreach (var gValue in Enum.GetValues(typeof(GameResource)))
+        {
+            ResourceBank.InitResourceLevel((GameResource)gValue, 1);
+        }
     }
     
 }

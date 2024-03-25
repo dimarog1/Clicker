@@ -13,9 +13,9 @@ public class ResourceVisual : MonoBehaviour
 
     private void Start()
     {
-        var observableInt = ResourceBank.GetResource(myGameResource);
-        _text.text = observableInt.Value.ToString(); // init
+        var observableAmount = ResourceBank.GetResource(myGameResource);
+        _text.text = observableAmount.Value.ToString(); // init
 
-        observableInt.OnValueChanged = f => _text.text = f.ToString(); // subscription
+        observableAmount.OnValueChanged = f => _text.text = f.ToString(); // subscription
     }
 }
