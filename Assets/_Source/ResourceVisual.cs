@@ -9,10 +9,13 @@ public class ResourceVisual : MonoBehaviour
     private void Awake()
     {
         _text = GetComponent<TextMeshProUGUI>();
+    }
 
+    private void Start()
+    {
         var observableInt = ResourceBank.GetResource(myGameResource);
         _text.text = observableInt.Value.ToString(); // init
-        
+
         observableInt.OnValueChanged = f => _text.text = f.ToString(); // subscription
     }
 }

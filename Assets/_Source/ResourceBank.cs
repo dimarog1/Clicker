@@ -9,6 +9,7 @@ public static class ResourceBank
     public static void InitResource(GameResource r, int v)
     {
         Resources.Add(r, new ObservableInt(v));
+
     }
     
     public static void ChangeResource(GameResource r, int v)
